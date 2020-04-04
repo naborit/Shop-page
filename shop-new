@@ -1,1 +1,133 @@
 
+<html>
+<head>
+<title>We Are Coming Soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,200;1,700&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<script> function ValidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+{
+document.form1.text1.focus();
+return true;
+}
+else
+{
+alert("You have entered an invalid email address!");
+document.form1.text1.focus();
+return false;
+}
+}
+</script>
+
+
+<style>
+.left
+{
+padding-left:130px;
+}
+input{
+position:relative;
+display:inline-block;
+font-size:14px;
+box-sizing:border-box;
+}
+input[type="text"]
+{
+background:#fff;
+width:320px;
+height:40px;
+border:1px solid #ffc0cb;
+border-color: #ffc0cb;
+border-style: rounded
+outline:none;
+padding: 0 25px;
+border-radius:25px 0 0 25px;
+font-family :'Josefin Sans', sans-serif;
+}
+input[type="submit"]
+{
+position:relative;
+border-radius: 12px;
+width:70px;
+height:47px;
+border-width:1px;
+border-style:solid;
+outline:none;
+cursor:pointer;
+background:#ffc0cb;
+color:#fff;
+font-size:22px;
+}
+
+::placeholder{
+color : #ffc0cb;
+ 
+}
+k{
+color:#ffc0cb;
+font-family:'Josefin Sans', sans-serif;
+}
+.log{
+color:#ffc0cb;
+}
+
+</style>
+</head>
+<body background="bg-pattern-desktop.svg">
+<br>
+<div class="left"> <a href="index.html"> <img alt="Porto"   src="logo.svg"> </a> </div>
+<!--<div class="container ">
+<div class="col-sm-12 thumbnail">
+<img src="bg-pattern-desktop.svg">
+
+<div class="row">
+<div class="col-sm-6">
+<h1>head narrower</h1>
+</div>
+<div class="col-sm-6">
+<!--<img src="hero-desktop.jpg" class="col-sm-6" class="thumbnail">
+</div>
+</div></div></div>-->
+<div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="thumbnail">
+					<br>	
+					<br>
+					<br>	
+					<br>
+					
+					
+					<p style = "font-size:320% ; font-family: 'Josefin Sans', sans-serif ;";>W E ' R E <br>C O M I N G <br> S O O N 																	 	 
+					</p>
+
+    				
+					<p style = "font-family: 'Josefin Sans', sans-serif"; > Hello fellow shoppers! We're currently building a new <br>fashion store.Add your email below to stay upto 						date <br>with announcements and launch dates </p>
+					<br>
+					<div class="box">
+					<form>
+					<input type="text" class=""  name="skill" id="quantity" placeholder="Email address" required="true">
+					<span id="errmsg"></span>
+					<input type="submit" name="" value=">">
+                    </form></div>
+	   </div>
+	   </div>
+	   <div class="col-sm-6">
+	   <div class="img-thumbnail-border-none">
+	   <img src="hero-desktop.jpg" height="680px">
+        </div></div>
+        </div></div>
+<script src = "email-validation.js"></script>
+
+</body>
+</html>
